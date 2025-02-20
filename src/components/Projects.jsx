@@ -37,6 +37,13 @@ function Projects() {
       image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800",
       github: null,
       live: "https://quiz-app-green-gamma.vercel.app"
+    },
+    {
+      title: "Attendance Tracker",
+      description: "Innovating attendance tracking solutions",
+      image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800",
+      github: null,
+      live: "https://make75.vercel.app"
     }
   ];
 

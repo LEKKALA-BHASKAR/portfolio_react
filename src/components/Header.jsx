@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { FaInstagram } from 'react-icons/fa6';
 
 function Header() {
   return (
@@ -56,6 +57,17 @@ function Header() {
             >
               <FaLinkedin className="w-8 h-8" />
             </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1, rotate: -5 }}
+              whileTap={{ scale: 0.9 }}
+              href="https://www.instagram.com/syntax__error__18/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass-effect p-4 rounded-full hover:bg-[#60efff]/20 hover:border-[#60efff]/50 transition-all duration-300"
+            >
+              <FaInstagram className="w-8 h-8" />
+            </motion.a>
+            
             <motion.a
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
