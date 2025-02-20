@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="min-h-screen relative overflow-hidden gradient-bg">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-5"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40"></div>
+      <div className="absolute inset-0 bg-black-to-b from-transparent via-black/20 to-black/40"></div>
       <div className="relative z-10 max-w-7xl mx-auto pt-32 px-6 flex flex-col items-center justify-center min-h-screen">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +25,7 @@ function Header() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto"
+            className="text-xl sm:text-2xl text-black-300 mb-12 max-w-2xl mx-auto"
           >
             B.Tech Computer Science Student & Full Stack Developer
           </motion.p>

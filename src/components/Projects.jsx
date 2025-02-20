@@ -47,7 +47,7 @@ function Projects() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="section-heading text-center text-gradient mb-16"
+          className="section-heading text-center text-black mb-16"
         >
           Projects
         </motion.h2>
@@ -67,12 +67,12 @@ function Projects() {
                   alt={project.title}
                   className="w-full h-48 object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-6">
+                <div className="absolute inset-0 bg-black-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-6">
                   <div className="flex space-x-4">
                     {project.github && (
                       <a
                         href={project.github}
-                        className="text-white hover:text-[#00ff87] transition-colors"
+                        className="text-white hover:text-gray-300 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -82,7 +82,7 @@ function Projects() {
                     {project.live && (
                       <a
                         href={project.live}
-                        className="text-white hover:text-[#00ff87] transition-colors"
+                        className="text-white hover:text-gray-300 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -93,8 +93,8 @@ function Projects() {
                 </div>
               </div>
               <div className="p-6 card-content">
-                <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
-                <p className="text-gray-200">{project.description}</p>
+                <h3 className="text-xl font-bold mb-2 text-black">{project.title}</h3>
+                <p className="text-black">{project.description}</p>
               </div>
             </motion.div>
           ))}
