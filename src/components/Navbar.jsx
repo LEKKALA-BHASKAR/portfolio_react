@@ -19,14 +19,14 @@ function Navbar() {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'glass-effect py-4' : 'bg-transparent py-6'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white ${
+        scrolled ? 'shadow-md py-4' : 'py-6'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <motion.h1 
           whileHover={{ scale: 1.1 }}
-          className="text-2xl font-bold text-black"
+          className="text-2xl font-bold text-gray-900"
         >
           Portfolio
         </motion.h1>
@@ -42,8 +42,8 @@ function Navbar() {
               }}
               className={`px-6 py-2 rounded-full transition-all ${
                 activeSection === item
-                  ? 'glass-effect text-black'
-                  : 'text-gray-300 hover:text-black'
+                  ? 'bg-gray-200 text-gray-900'
+                  : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
               }`}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}

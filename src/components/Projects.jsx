@@ -41,7 +41,7 @@ function Projects() {
     {
       title: "Attendance Tracker",
       description: "Innovating attendance tracking solutions",
-      image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800",
+      image: "/img/image.png",
       github: null,
       live: "https://make75.vercel.app"
     }
