@@ -100,42 +100,42 @@ function Header() {
             className="flex justify-center space-x-8"
           >
             <motion.a
-              whileHover={{ scale: 1.1, rotate: 5 }}
+              whileHover={{ scale: 1.1, rotate: -0 }}
               whileTap={{ scale: 0.9 }}
               href="https://github.com/LEKKALA-BHASKAR"
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-effect p-4 rounded-full hover:bg-[#00ff87]/20 hover:border-[#00ff87]/50 transition-all duration-300 text-white"
+              className="bg-[#24292E] p-4 rounded-full hover:bg-[#2F363D] transition-all duration-300 text-white border border-[#24292E] hover:border-[#2F363D]"
             >
-              <FaGithub className="w-8 h-8" />
+              <FaGithub className="w-10 h-10" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.1, rotate: -5 }}
+              whileHover={{ scale: 1.1, rotate: -0 }}
               whileTap={{ scale: 0.9 }}
               href="https://www.linkedin.com/in/LEKKALA-BHASKAR"
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-effect p-4 rounded-full hover:bg-[#60efff]/20 hover:border-[#60efff]/50 transition-all duration-300 text-white"
+              className="bg-[#0A66C2] p-4 rounded-full hover:bg-[#004182] transition-all duration-300 text-white border border-[#0A66C2] hover:border-[#004182]"
             >
-              <FaLinkedin className="w-8 h-8" />
+              <FaLinkedin className="w-10 h-10" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.1, rotate: -5 }}
+              whileHover={{ scale: 1.1, rotate: -0 }}
               whileTap={{ scale: 0.9 }}
               href="https://www.instagram.com/syntax__error__18/"
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-effect p-4 rounded-full hover:bg-[#ff0066]/20 hover:border-[#ff0066]/50 transition-all duration-300 text-white"
+              className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] p-4 rounded-full hover:bg-gradient-to-r hover:from-[#833AB4]/90 hover:via-[#FD1D1D]/90 hover:to-[#FCB045]/90 transition-all duration-300 text-white border border-transparent hover:border-white"
             >
-              <FaInstagram className="w-8 h-8" />
+              <FaInstagram className="w-10 h-10" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.1, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
+              whileHover={{ scale: 1.1, rotate: -0 }}
+              whileTap={{ scale: 0.10 }}
               href="mailto:bassnaidu1242@gmail.com"
-              className="glass-effect p-4 rounded-full hover:bg-[#0061ff]/20 hover:border-[#0061ff]/50 transition-all duration-300 text-white"
+              className="bg-[#EA4335] p-4 rounded-full hover:bg-[#D14836] transition-all duration-300 text-white border border-[#EA4335] hover:border-[#D14836] flex items-center justify-center shadow-lg hover:shadow-xl"
             >
-              <FaEnvelope className="w-8 h-8" />
+              <FaEnvelope className="w-10 h-10" />
             </motion.a>
           </motion.div>
 
