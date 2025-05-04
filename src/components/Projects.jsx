@@ -44,7 +44,28 @@ function Projects() {
       image: "/img/image.png",
       github: null,
       live: "https://make75.vercel.app"
-    }
+    },
+    {
+      title: "Fortune Multi services",
+      description: "Weborium Client project",
+      image: "/img/FMS.png",
+      github: null,
+      live: "https://fortunemultiservices.in"
+    },
+    {
+      title: "Moto Lab Pit shop",
+      description: "Weborium Client E-commerce ",
+      image: "/img/MotoLab.png",
+      github: null,
+      live: "https://motolabpitshop-web-frontend.vercel.app/"
+    },
+    {
+      title: "varahi eco green",
+      description: "Weborium Client eco green ",
+      image: "/img/VEG.png",
+      github: null,
+      live: "https://varahiecogreen.vercel.app"
+    },
   ];
 
   return (
