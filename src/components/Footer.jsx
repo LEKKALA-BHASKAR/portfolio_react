@@ -36,7 +36,7 @@ function Footer() {
             <FaLinkedin className="w-10 h-10" />
           </a>
           <a
-            href="https://www.instagram.com/syntax__error__18/"
+            href="https://www.instagram.com/bhas_kar_18/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
