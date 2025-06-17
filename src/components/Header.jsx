@@ -122,7 +122,7 @@ function Header() {
             <motion.a
               whileHover={{ scale: 1.1, rotate: -0 }}
               whileTap={{ scale: 0.9 }}
-              href="https://www.instagram.com/syntax__error__18/"
+              href="https://www.instagram.com/bhas_kar_18/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] p-4 rounded-full hover:bg-gradient-to-r hover:from-[#833AB4]/90 hover:via-[#FD1D1D]/90 hover:to-[#FCB045]/90 transition-all duration-300 text-white border border-transparent hover:border-white"
