@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 function About() {
   const skills = [
-    'React', 'Python', 'JavaScript', 'HTML/CSS',
-    'Git', 'SQL', 'Java', 'C'
+    'React.js','MongoDb','Node.js','Express.js','Python', 'JavaScript', 'HTML/CSS',
+    'Git', 'SQL', 'Java'
   ];
 
   const container = {
