@@ -54,9 +54,10 @@ function About() {
               <h2 className="text-2xl font-bold ml-4 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">About Me</h2>
             </div>
             <p className="text-gray-700 leading-relaxed font-medium relative z-10">
-              A passionate B.Tech Computer Science student with a strong focus on web development
-              and software engineering. I thrive on exploring cutting-edge technologies and crafting
-              elegant solutions to complex challenges.
+              Full-Stack Developer experienced in building scalable web applications with MERN stack. 
+              Strong Python skills with expertise in Data Structures, Algorithms, and problem-solving. 
+              Built projects with REST APIs, authentication, and responsive UI. Co-founded a freelance web agency, demonstrating leadership. 
+              Proficient in Git, CI/CD, and Agile methodologies. Seeking software development roles to grow my full-stack and backend engineering skills.
             </p>
           </motion.div>
 
