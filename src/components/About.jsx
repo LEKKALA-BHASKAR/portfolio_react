@@ -184,7 +184,7 @@ function About() {
               
               <div className="relative pl-10">
                 <div className="absolute left-5 top-1 w-3 h-3 rounded-full bg-blue-500 border-4 border-blue-100"></div>
-                <h3 className="text-lg font-semibold text-gray-800">Freelance Web Agency</h3>
+                <h3 className="text-lg font-semibold text-gray-800">Freelance Weborium Agency</h3>
                 <p className="text-blue-600 font-medium">Co-Founder & Developer</p>
                 <p className="text-gray-500 text-sm mt-1">2024 - Present</p>
                 <p className="text-gray-600 mt-2">Built and delivered custom web solutions for clients while managing projects and teams.</p>
