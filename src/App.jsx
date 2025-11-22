@@ -5,6 +5,7 @@ import Certifications from './components/Certifications';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
+import GitHubStats from './components/GitHubStats';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Certifications /> 
       <Experience/>
+      <GitHubStats />
       <Projects />
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-import { FaUser, FaCode, FaBookOpen, FaGraduationCap } from 'react-icons/fa';
+import { FaUser, FaCode, FaGraduationCap } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 function About() {
@@ -125,7 +125,7 @@ function About() {
               <h2 className="text-2xl font-bold ml-4 text-gray-800">Skills</h2>
             </div>
             <div className="grid grid-cols-2 gap-3 relative">
-              {skills.map((skill, index) => (
+              {skills.map((skill) => (
                 <motion.span
                   key={skill}
                   variants={skillItem}
