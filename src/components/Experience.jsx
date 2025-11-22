@@ -1,5 +1,3 @@
-import React from "react";
-
 const experiences = [
   {
     title: "iNeuron Intelligence Pvt Ltd",
